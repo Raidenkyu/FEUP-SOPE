@@ -1,7 +1,7 @@
-SRC = p2
+SRC = p6_writer
 
 all:
-	gcc -Wall $(SRC).c -o run
+	gcc -Wall $(SRC).c -o $(SRC)
 
 clean:
 	rm run
